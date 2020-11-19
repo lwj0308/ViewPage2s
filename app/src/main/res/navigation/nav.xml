@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.linlinlin.viewpage2s.fragment.HomeFragment"
+        android:label="@string/fragment_home_label"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/findFragment"
+        android:name="com.linlinlin.viewpage2s.fragment.FindFragment"
+        android:label="@string/fragment_find_label"
+        tools:layout="@layout/fragment_find" />
+    <fragment
+        android:id="@+id/roundFragment"
+        android:name="com.linlinlin.viewpage2s.fragment.RoundFragment"
+        android:label="@string/fragment_round_label"
+        tools:layout="@layout/fragment_round" />
+    <fragment
+        android:id="@+id/meFragment"
+        android:name="com.linlinlin.viewpage2s.fragment.MeFragment"
+        android:label="@string/fragment_me_label"
+        tools:layout="@layout/fragment_me" />
+</navigation>

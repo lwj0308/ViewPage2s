@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_find_label">发现</string>
+    <string name="fragment_home_label">首页</string>
+    <string name="fragment_round_label">周边</string>
+    <string name="fragment_me_label">我的</string>
+</resources>
